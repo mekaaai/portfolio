@@ -1,4 +1,4 @@
-// Cursor Effect
+
 const cursor = document.getElementById('cursorDot');
 let mouseX = 0, mouseY = 0;
 let cursorX = 0, cursorY = 0;
