@@ -1,3 +1,4 @@
+// Navigation indicator animation
 const navLinks = document.querySelectorAll('.nav-link');
 const navIndicator = document.getElementById('navIndicator');
 const navLinksContainer = document.getElementById('navLinks');
