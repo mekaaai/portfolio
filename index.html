@@ -19,220 +19,206 @@
     data-x_margin="18" data-y_margin="18"></script>
 
 <body>
-    <div class="scroll-progress" id="scrollProgress"></div>
-    <div class="cursor-dot" id="cursorDot"></div>
+    <nav>
+        <div class="nav-container">
+            <div class="nav-logo">PATH OF STINO</div>
+            <ul class="nav-links" id="navLinks">
+                <div class="nav-indicator" id="navIndicator"></div>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#expertise" class="nav-link">Expertise</a></li>
+                <li><a href="#philosophy" class="nav-link">Philosophy</a></li>
+            </ul>
+        </div>
+    </nav>
 
+    <!-- Hero Section -->
     <div class="container">
-        <!-- Header -->
-        <header class="terminal-header">
-            <div class="terminal-prompt">$ whoami</div>
-            <h1 class="name">PATH OF STINO</h1>
-            <p class="subtitle">The Truth Network | Archives | Code | Becoming</p>
-            <div class="mission-statement">
-                "Truth isn't told — it's built, line by line."
-            </div>
-        </header>
-
-        <!-- Who I Am -->
-        <section class="section">
-            <h2 class="section-header">
-                <span class="section-emoji">🧬</span>
-                Who I Am
-            </h2>
-            <p class="text-block">
-                My name is <strong>Ejimoffor-Emeka Destiny Oluebuebubechukwu</strong>, but my path — my evolution — is
-                called <strong>Path of Stino</strong>.
+        <section class="hero">
+            <div class="hero-label">Full-Stack Engineer & CTO</div>
+            <h1 class="hero-title">Building the Future<br>with Truth & Code</h1>
+            <p class="hero-subtitle">Ejimoffor-Emeka Destiny Oluebuebubechukwu</p>
+            <p class="hero-description">
+                An 18-year-old Computer Science student, CTO, and AI engineer from Nigeria. I architect digital
+                experiences where innovation meets authenticity—building systems that transform how we interact with
+                technology.
             </p>
-            <p class="text-block">
-                I'm an 18-year-old Computer Science student, creative technologist, and AI dreamer from Nigeria. I walk
-                the line between code and consciousness — where logic meets emotion, and creativity meets engineering.
-            </p>
-            <p class="text-block">
-                Every day, I'm rewriting what it means to be human in the age of machines. To some, I'm a developer. To
-                others, a designer, editor, thinker. But to myself — I'm a <strong>truth architect</strong>: building
-                systems, visuals, and words that express who we really are in this connected world.
-            </p>
-
-            <div class="stats">
-                <div class="stat-box">
-                    <div class="stat-number">18</div>
-                    <div class="stat-label">Years Old</div>
-                </div>
-                <div class="stat-box">
-                    <div class="stat-number">6</div>
-                    <div class="stat-label">Years Coding</div>
-                </div>
-                <div class="stat-box">
-                    <div class="stat-number">3+</div>
-                    <div class="stat-label">Years Full-Stack</div>
-                </div>
-            </div>
-
-            <div style="margin-top: 30px;">
-                <span class="role-badge">CTO @ Aglow Skin Affair</span>
-                <span class="role-badge">CS Student</span>
-                <span class="role-badge">Based in Nigeria 🇳🇬</span>
+            <div class="hero-cta">
+                <button class="btn-primary" onclick="alert('Add your email or contact form')">Get in Touch</button>
+                <button class="btn-secondary" onclick="alert('Add link to your work')">View My Work</button>
             </div>
         </section>
 
-        <!-- The Truth Network -->
-        <section class="section">
-            <h2 class="section-header">
-                <span class="section-emoji">⚡</span>
-                The Truth Network
-            </h2>
-            <p class="text-block">
-                The Truth Network isn't a company — it's a <strong>movement of authenticity</strong>. A digital
-                ecosystem where every project, idea, and creation I build is rooted in one philosophy:
-            </p>
+        <!-- Stats Bar -->
+        <div class="stats-bar">
+            <div class="stat">
+                <div class="stat-number">6</div>
+                <div class="stat-label">Years of Experience</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">3+</div>
+                <div class="stat-label">Years Full-Stack</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">18</div>
+                <div class="stat-label">Age</div>
+            </div>
+        </div>
 
-            <div class="highlight">
-                "Create with honesty. Build with meaning. Live with rhythm."
+        <!-- About Section -->
+        <section id="about">
+            <div class="section-header">
+                <div class="section-label">About Me</div>
+                <h2 class="section-title">Truth Architect</h2>
+                <p class="section-description">
+                    I walk the line between code and consciousness—where logic meets emotion, and creativity meets
+                    engineering. Every day, I'm rewriting what it means to be human in the age of machines.
+                </p>
             </div>
 
-            <p class="text-block">
-                It's where my tech, art, and AI collide. A network for thinkers who refuse to fake it — for builders who
-                care about the <strong>why</strong> behind the <strong>what</strong>. The Truth Network is my personal
-                revolution — my manifesto, my lab, and my church of creation.
-            </p>
-
-            <div class="pillars">
-                <div class="pillar">
-                    <div class="pillar-title">Truth Over Hype</div>
-                    <div class="pillar-text">Innovation without emotion is just noise. Every project must have meaning
-                        beyond the metrics.</div>
+            <div class="two-col">
+                <div>
+                    <div class="content-block">
+                        <h3>My Journey</h3>
+                        <p>
+                            With close to six years in programming and over three years as a Full-Stack Engineer, I've
+                            built digital experiences that speak truth through design, logic, and innovation. My path—my
+                            evolution—is called Path of Stino.
+                        </p>
+                    </div>
+                    <div class="content-block">
+                        <h3>My Philosophy</h3>
+                        <p>
+                            To some, I'm a developer. To others, a designer, editor, thinker. But to myself—I'm a truth
+                            architect: building systems, visuals, and words that express who we really are in this
+                            connected world.
+                        </p>
+                    </div>
                 </div>
-                <div class="pillar">
-                    <div class="pillar-title">Depth Over Speed</div>
-                    <div class="pillar-text">We code stories that mean something. We build systems that transform, not
-                        just perform.</div>
-                </div>
-                <div class="pillar">
-                    <div class="pillar-title">Vision Over Validation</div>
-                    <div class="pillar-text">PATHOFSTINO isn't a brand — it's a state of being. Real, restless, and
-                        reaching beyond trends.</div>
+                <div>
+                    <div class="role-section">
+                        <div class="role-header">
+                            <div>
+                                <div class="role-title">Chief Technology Officer</div>
+                                <div class="role-company">Aglow Skin Affair</div>
+                            </div>
+                            <div class="role-period">Current</div>
+                        </div>
+                        <p class="role-description">
+                            Leading digital growth and product strategy—merging creativity, technology, and authenticity
+                            to build what truly matters. Driving innovation in digital experiences and system
+                            architecture.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- The Archives -->
-        <section class="section">
-            <h2 class="section-header">
-                <span class="section-emoji">🗃️</span>
-                The Truth Archives
-            </h2>
-            <p class="text-block">
-                This is where I keep the rawness — the unfiltered journey: my projects, my sketches, my thoughts, my
-                experiments.
-            </p>
-            <p class="text-block">
-                Every build, every bug, every spark of creativity — archived. Because my truth isn't just in what I
-                finish — it's in what I attempt. The Archives aren't about perfection; they're about
-                <strong>evolution</strong>. They're proof that I grew.
-            </p>
-        </section>
-
-        <!-- Tech Stack -->
-        <section class="section">
-            <h2 class="section-header">
-                <span class="section-emoji">💻</span>
-                My Learning Stack
-            </h2>
-
-            <h3 style="color: #00f5ff; margin: 30px 0 15px; font-size: 1.2rem;">Languages & Frameworks</h3>
-            <div class="tech-grid">
-                <div class="tech-item">Python 🐍</div>
-                <div class="tech-item">Django</div>
-                <div class="tech-item">DRF</div>
-                <div class="tech-item">JavaScript</div>
-                <div class="tech-item">React</div>
-                <div class="tech-item">Node.js</div>
-                <div class="tech-item">HTML/CSS</div>
-                <div class="tech-item">C++</div>
+        <!-- Philosophy Section -->
+        <section id="philosophy">
+            <div class="section-header">
+                <div class="section-label">Philosophy</div>
+                <h2 class="section-title">The Truth Network</h2>
+                <p class="section-description">
+                    A movement of authenticity. A digital ecosystem where every project, idea, and creation is rooted in
+                    one philosophy: Create with honesty. Build with meaning. Live with rhythm.
+                </p>
             </div>
 
-            <h3 style="color: #ff00ff; margin: 40px 0 15px; font-size: 1.2rem;">Creative Tools</h3>
-            <div class="tech-grid">
-                <div class="tech-item">Premiere Pro</div>
-                <div class="tech-item">Photoshop</div>
-                <div class="tech-item">CapCut</div>
-                <div class="tech-item">Figma</div>
-                <div class="tech-item">Motion Design</div>
-                <div class="tech-item">ChatGPT</div>
-                <div class="tech-item">Claude</div>
-            </div>
-
-            <h3 style="color: #00ff88; margin: 40px 0 15px; font-size: 1.2rem;">Core Focus</h3>
-            <div class="tech-grid">
-                <div class="tech-item">AI Engineering</div>
-                <div class="tech-item">Full-Stack Dev</div>
-                <div class="tech-item">Digital Creative</div>
-                <div class="tech-item">Automation</div>
-                <div class="tech-item">System Design</div>
-            </div>
-        </section>
-
-        <!-- Philosophy -->
-        <section class="section">
-            <h2 class="section-header">
-                <span class="section-emoji">🧠</span>
-                The Truth Slogan
-            </h2>
-
-            <div class="philosophy-grid">
-                <div class="philosophy-card">
-                    <p class="philosophy-text">
-                        The Future Speaks in Code — But I Teach It to Speak in Truth.
+            <div class="card-grid">
+                <div class="card">
+                    <h3 class="card-title">Truth Over Hype</h3>
+                    <p class="card-text">Innovation without emotion is just noise. Every project must have meaning
+                        beyond the metrics.</p>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">Depth Over Speed</h3>
+                    <p class="card-text">We code stories that mean something. We build systems that transform, not just
+                        perform.</p>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">Vision Over Validation</h3>
+                    <p class="card-text">PATHOFSTINO is a state of being. Real, restless, and reaching beyond trends.
                     </p>
                 </div>
             </div>
 
-            <p class="text-block" style="margin-top: 30px;">
-                It's not just a slogan. It's a mission. To blend the raw power of algorithms with the authenticity of
-                human feeling. To remind the world that <strong>innovation without emotion is just noise</strong>. To
-                code stories that mean something.
-            </p>
-        </section>
-
-        <!-- Certifying the Name -->
-        <section class="section">
-            <h2 class="section-header">
-                <span class="section-emoji">🛠️</span>
-                Certifying the Name
-            </h2>
-            <p class="text-block">
-                <strong>PATHOFSTINO</strong> isn't a brand — it's a state of being. It's how I move through creation —
-                real, restless, and reaching beyond trends.
-            </p>
-            <p class="text-block">
-                It's my signature, my blueprint, my trail. So when you see PATHOFSTINO, you're not just seeing a
-                portfolio — you're seeing a <strong>movement of one</strong>, guided by curiosity, discipline, and soul.
-            </p>
-        </section>
-
-        <!-- CTA -->
-        <div class="footer-cta">
-            <h2 class="truth-statement">We Are The Truth.</h2>
-            <p class="footer-text">
-                I'm building intelligent systems. Designing digital experiences that feel alive. And creating a truth
-                network — one project at a time — where art, AI, and humanity coexist.
-            </p>
-            <p class="footer-text">
-                Because this isn't just my portfolio. It's my proof of becoming. My truth — written in code.
-            </p>
-            <button class="connect-btn" onclick="window.open('https://linktr.ee/pathofstino', '_blank')">
-                Lets Connect </button>
-
-
-
-
-            <!-- Signature -->
-            <div class="signature">
-                <p>Living and creating with integrity.</p>
-                <p class="signature-name">PATH OF STINO © 2025</p>
+            <div class="quote-block">
+                <p class="quote-text">"The Future Speaks in Code — But I Teach It to Speak in Truth."</p>
+                <p class="quote-author">Blending the raw power of algorithms with the authenticity of human feeling.</p>
             </div>
-        </div>
-        <script src="script.js"></script>
+        </section>
+
+        <!-- Expertise Section -->
+        <section id="expertise">
+            <div class="section-header">
+                <div class="section-label">Expertise</div>
+                <h2 class="section-title">Technical Stack</h2>
+                <p class="section-description">
+                    A comprehensive toolkit spanning full-stack development, AI engineering, and creative design—built
+                    over years of dedicated practice and real-world application.
+                </p>
+            </div>
+
+            <div class="tech-section">
+                <div class="tech-category">
+                    <h3 class="tech-category-title">Languages & Frameworks</h3>
+                    <div class="tech-grid">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Django</span>
+                        <span class="tech-tag">Django Rest Framework</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">HTML/CSS</span>
+                        <span class="tech-tag">C++</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3 class="tech-category-title">Creative & Design Tools</h3>
+                    <div class="tech-grid">
+                        <span class="tech-tag">Adobe Premiere Pro</span>
+                        <span class="tech-tag">Photoshop</span>
+                        <span class="tech-tag">CapCut</span>
+                        <span class="tech-tag">Figma</span>
+                        <span class="tech-tag">Motion Design</span>
+                        <span class="tech-tag">UI/UX Design</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3 class="tech-category-title">AI & Specializations</h3>
+                    <div class="tech-grid">
+                        <span class="tech-tag">AI Engineering</span>
+                        <span class="tech-tag">Machine Learning</span>
+                        <span class="tech-tag">System Architecture</span>
+                        <span class="tech-tag">Automation</span>
+                        <span class="tech-tag">API Development</span>
+                        <span class="tech-tag">Database Design</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+                <h2 class="footer-title">We Are The Truth.</h2>
+                <p class="footer-text">
+                    I'm building intelligent systems, designing digital experiences that feel alive, and creating a
+                    truth network—one project at a time—where art, AI, and humanity coexist.
+                </p>
+                <button class="btn-primary" onclick="alert('Add your contact: email, LinkedIn, GitHub, Twitter')">Let's
+                    Connect</button>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Path of Stino. Living and creating with integrity.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
